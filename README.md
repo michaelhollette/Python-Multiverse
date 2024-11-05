@@ -23,4 +23,5 @@ Refresher on matplotlib and seaborn libraries
 Code Academy Data Structures and Algorithms Course in Python
 
 Week 10:
+
 Learn FastAPI framework
