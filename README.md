@@ -2,7 +2,7 @@ Python Learning Plan
 
 Week 9:
 
-Refresher about __init__.py and __main__
+Refresher about __init__.py and __main__ = Done
 
 Refresher on sets, frozensets  tuples
 
