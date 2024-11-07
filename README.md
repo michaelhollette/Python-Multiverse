@@ -21,6 +21,8 @@ Learn how to do web scraping
 Refresher on matplotlib and seaborn libraries
 
 Code Academy Data Structures and Algorithms Course in Python
+-Linked Lists
+
 
 Week 10:
 
