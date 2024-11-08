@@ -4,7 +4,7 @@ Week 9:
 
 Refresher about __init__.py and __main__ = Done
 
-Refresher on sets, frozensets  tuples
+Refresher on sets, frozensets  tuples = Done
 
 Refresher on file handling
 
