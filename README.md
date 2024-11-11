@@ -6,9 +6,9 @@ Refresher about __init__.py and __main__ = Done
 
 Refresher on sets, frozensets  tuples = Done
 
-Refresher on file handling
+Refresher on file handling = Done
 
-Learn  unit testing in python
+Learn  unit testing in python = Done
 
 Learn about polymorphism in python
 
