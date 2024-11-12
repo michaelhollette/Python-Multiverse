@@ -10,9 +10,9 @@ Refresher on file handling = Done
 
 Learn  unit testing in python = Done
 
-Learn about polymorphism in python
+Learn about polymorphism in python = Done
 
-Learn about encapsulation in python
+Learn about encapsulation in python = Done
 
 Learn how to do regular expressions
 
@@ -21,7 +21,7 @@ Learn how to do web scraping
 Refresher on matplotlib and seaborn libraries
 
 Code Academy Data Structures and Algorithms Course in Python
--Linked Lists
+-Linked Lists = Done
 
 
 Week 10:
