@@ -12,7 +12,7 @@ class User:
             else:
                 raise Exception("Incorrect password")
         except Exception as e:
-            print (e)
+            print(str(e))
     
     def logout(self):
         self.loggedIn = False

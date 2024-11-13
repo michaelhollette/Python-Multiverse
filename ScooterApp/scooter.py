@@ -12,9 +12,14 @@ class Scooter:
     def rent(self, user):
         if (self.charge > 20 and self.isBroken == False):
             self.user = user
+            self.station = None
         elif self.charge < 20:
             raise Exception("Scooter needs to charge")
         elif self.isBroken:
             raise Exception("Scooter needs repair")
+        
+    def dock(self, station):
+        self.station = station
+        self.user = None
 
 

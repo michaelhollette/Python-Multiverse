@@ -22,18 +22,21 @@ class ScooterApp:
             else:
                 raise Exception(f"{username} has already been registered")
         except Exception as e:
-            print (e)
+            print(str(e))
     
     def loginUser(self, username, password):
-        for key, user_obj in self.registeredUsers.items():
-            if username == key:
-                try:
-                    user_obj.login(password)
-                    if user_obj.loggedIn == True:
-                        print(f"{user_obj.username} has been logged in")
-                    return
-                except:
-                    raise Exception("Username or password is incorrect")
+        try:
+            if username not in self.registeredUsers:
+                raise Exception("Username or password is incorrect")
+            for key, user_obj in self.registeredUsers.items():
+                if username == key:
+                        user_obj.login(password)
+                        if user_obj.loggedIn == True:
+                            print(f"{user_obj.username} has been logged in")
+                        else:
+                            raise Exception("Username or password is incorrect")
+        except Exception as e:
+            print(str(e))
         
     def logoutUser(self, username):
         try:
@@ -48,7 +51,7 @@ class ScooterApp:
                 else:
                     raise Exception(f"user '{username}' does not exist")
         except Exception as e:
-            print(e)
+            print(str(e))
     
     def createScooter(self, station):
         try:
@@ -61,7 +64,7 @@ class ScooterApp:
                     print("Created new scooter")
                     return new_scooter
         except Exception as e:
-            print(e)
+            print(str(e))
     
     def dockScooter(self, scooter, station):
         try:
@@ -75,7 +78,7 @@ class ScooterApp:
                         raise Exception(f"Scooter is already at station {station}")
                     print("Scooter is docked")
         except Exception as e:
-            print(e)
+            print(str(e))
     
     def rentScooter(self, scooter, user):
         try:
@@ -87,7 +90,7 @@ class ScooterApp:
                     return
             raise Exception("Scooter is already rented")
         except Exception as e:
-            print(e)
+            print(str(e))
 
     def print(self):
         print("Registered users are:")
