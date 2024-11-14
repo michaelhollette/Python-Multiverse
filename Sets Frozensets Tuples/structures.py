@@ -86,5 +86,4 @@ print("Difference with another frozenset:", immutable_set - another_frozenset)
 # Write this content to a .py file
 with open("/mnt/data/data_structure_manipulation_examples.py", "w") as file:
     file.write(file_content)
-
 "/mnt/data/data_structure_manipulation_examples.py"

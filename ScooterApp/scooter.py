@@ -18,7 +18,10 @@ class Scooter:
         elif self.isBroken:
             raise Exception("Scooter needs repair")
         
-    def dock(self, station):    
+
+  
+
+    def dock(self, station):
         self.station = station
         self.user = None
 
